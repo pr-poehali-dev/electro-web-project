@@ -59,7 +59,7 @@ const ElectricalInstallation = () => {
             </div>
             <div>
               <img 
-                src="/placeholder.svg" 
+                src="https://i.ibb.co/yB3ZcXp/electrical-installation.png" 
                 alt="Монтаж электрооборудования в Колпино" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -74,7 +74,7 @@ const ElectricalInstallation = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://i.ibb.co/nsdppCB/socket-installation.png" 
                   alt="Розетки и выключатели" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -85,7 +85,7 @@ const ElectricalInstallation = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://i.ibb.co/kxKgFj3/lights-installation.png" 
                   alt="Светильники и люстры" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -96,7 +96,7 @@ const ElectricalInstallation = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="/placeholder.svg" 
+                  src="https://i.ibb.co/4F1xkJq/electric-panel.png" 
                   alt="Электрощиты" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -114,17 +114,17 @@ const ElectricalInstallation = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/qM9PcKn/socket-example.png" 
               alt="Установка розеток" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/kxKgFj3/lights-installation.png" 
               alt="Монтаж светильников" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/bdRqm92/panel-connection.png" 
               alt="Подключение электрощита" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />

@@ -44,19 +44,19 @@ const Index = () => {
             <ServiceCard 
               title="Электропроводка" 
               description="Монтаж и замена электропроводки в квартирах, домах и офисах. Прокладка кабеля, установка распределительных коробок."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://i.ibb.co/sVkDgj4/electrical-wiring.png"
               link="/services/electrical-wiring"
             />
             <ServiceCard 
               title="Монтаж электрооборудования" 
               description="Установка розеток, выключателей, светильников, люстр, электрощитов и другого электрооборудования."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://i.ibb.co/yB3ZcXp/electrical-installation.png"
               link="/services/electrical-installation"
             />
             <ServiceCard 
               title="Устранение неисправностей" 
               description="Диагностика и устранение неисправностей в электросети. Ремонт электропроводки, замена вышедших из строя элементов."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://i.ibb.co/XDV0qZw/troubleshooting.png"
               link="/services/troubleshooting"
             />
           </div>
@@ -97,22 +97,22 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/4F1xkJq/electric-panel.png" 
               alt="Монтаж электрощита" 
               className="rounded-lg shadow-md w-full h-64 object-cover"
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/0Q6S5WX/cable-installation.png" 
               alt="Прокладка кабеля" 
               className="rounded-lg shadow-md w-full h-64 object-cover"
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/nsdppCB/socket-installation.png" 
               alt="Установка розеток" 
               className="rounded-lg shadow-md w-full h-64 object-cover"
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/NpQQnZN/wiring-replacement.png" 
               alt="Замена проводки" 
               className="rounded-lg shadow-md w-full h-64 object-cover"
             />

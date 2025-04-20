@@ -11,87 +11,101 @@ const Contacts = () => {
         {/* Header */}
         <section className="page-header">
           <div className="container mx-auto px-4 py-16">
-            <h1 className="text-4xl font-bold mb-4">Контакты</h1>
+            <h1 className="text-4xl font-bold mb-4">Контакты электрика в Колпино</h1>
             <p className="text-xl max-w-3xl">
-              Свяжитесь со мной для консультации или заказа услуг электрика в Колпино
+              Свяжитесь со мной для заказа электромонтажных работ в Колпино и Колпинском районе Санкт-Петербурга
             </p>
           </div>
         </section>
         
-        {/* Contact info */}
-        <section className="container-custom">
-          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="p-8 bg-primary text-white">
-                <h2 className="text-2xl font-bold mb-6">Контактная информация</h2>
-                <p className="mb-8">
-                  Профессиональный электрик в Колпино и Колпинском районе Санкт-Петербурга. 
-                  Выполняю электромонтажные работы любой сложности.
-                </p>
-                
-                <div className="space-y-6">
+        {/* Contact details */}
+        <section className="container-custom py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold mb-6">Контактная информация</h2>
+              <p className="text-lg mb-6">
+                Выполняю весь спектр электромонтажных работ в Колпино и Колпинском районе. Для заказа услуг или консультации свяжитесь со мной любым удобным способом:
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center">
+                    <Phone size={32} className="text-primary" />
+                  </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">Вызов электрика в Колпино</h3>
-                    <a href="tel:89500308830" className="text-xl font-bold flex items-center gap-2 hover:underline">
-                      <Phone size={24} />
+                    <h3 className="text-xl font-bold">Телефон</h3>
+                    <a href="tel:89500308830" className="text-lg hover:text-primary transition-colors">
                       8 950 030 88 30
                     </a>
                   </div>
-                  
+                </div>
+                
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center">
+                    <img src="https://i.ibb.co/9YX3NW3/whatsapp-icon.png" alt="WhatsApp" className="w-8 h-8" />
+                  </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-2">Мессенджеры</h3>
-                    <div className="flex flex-col gap-3">
-                      <a 
-                        href="https://wa.me/89500308830" 
-                        className="flex items-center gap-2 hover:underline"
-                      >
-                        <MessageCircle size={24} />
-                        WhatsApp
-                      </a>
-                      <a 
-                        href="https://t.me/89500308830" 
-                        className="flex items-center gap-2 hover:underline"
-                      >
-                        <MessageCircle size={24} />
-                        Telegram
-                      </a>
-                    </div>
+                    <h3 className="text-xl font-bold">WhatsApp</h3>
+                    <a href="https://wa.me/89500308830" className="text-lg hover:text-primary transition-colors">
+                      8 950 030 88 30
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="flex items-center gap-4">
+                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center">
+                    <img src="https://i.ibb.co/cJLkMJR/telegram-icon.png" alt="Telegram" className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">Telegram</h3>
+                    <a href="https://t.me/89500308830" className="text-lg hover:text-primary transition-colors">
+                      8 950 030 88 30
+                    </a>
                   </div>
                 </div>
               </div>
-              
-              <div className="p-8">
-                <h2 className="text-2xl font-bold mb-6">Работаю в районах</h2>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Колпино</li>
-                  <li>• Колпинский район</li>
-                  <li>• Металлострой</li>
-                  <li>• Понтонный</li>
-                  <li>• Саперный</li>
-                  <li>• Усть-Ижора</li>
-                  <li>• Петро-Славянка</li>
-                </ul>
-                
-                <div className="mt-8">
-                  <h3 className="text-lg font-bold mb-4">Режим работы</h3>
-                  <p className="text-gray-700">
-                    Принимаю заявки ежедневно с 8:00 до 22:00
-                  </p>
-                  <p className="mt-4 text-gray-700">
-                    Выезд на срочные работы - в течение 1-2 часов после звонка
-                  </p>
-                </div>
+            </div>
+            
+            <div>
+              <img 
+                src="https://i.ibb.co/s2g2JRd/contact-electrician.png" 
+                alt="Электрик в Колпино" 
+                className="rounded-lg shadow-lg w-full h-auto"
+              />
+            </div>
+          </div>
+        </section>
+        
+        {/* Service area */}
+        <section className="bg-gray-100 py-16">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-8">Зона обслуживания</h2>
+            <div className="max-w-3xl mx-auto">
+              <div className="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 className="text-xl font-bold mb-4">Колпино и Колпинский район</h3>
+                <p className="text-gray-600 mb-4">
+                  Оказываю услуги электрика в Колпино и на всей территории Колпинского района Санкт-Петербурга.
+                </p>
+                <img 
+                  src="https://i.ibb.co/tJkzrjV/kolpino-map.png" 
+                  alt="Карта Колпино" 
+                  className="rounded-lg w-full h-auto"
+                />
               </div>
+              
+              <p className="text-lg">
+                Быстрый выезд на объект в пределах Колпинского района обычно занимает не более 30-60 минут в зависимости от удаленности и загруженности дорог.
+              </p>
             </div>
           </div>
         </section>
         
         {/* CTA */}
-        <section className="bg-primary text-white py-16 mt-16">
+        <section className="bg-primary text-white py-16">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">Вызвать электрика в Колпино</h2>
+            <h2 className="text-3xl font-bold mb-4">Нужен электрик в Колпино?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Звоните прямо сейчас для получения профессиональной консультации и заказа услуг
+              Звоните прямо сейчас! Консультация бесплатно. Быстрый выезд, качественное выполнение работ.
             </p>
             <a 
               href="tel:89500308830" 

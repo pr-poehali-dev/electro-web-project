@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Index from "./pages/Index";
 import ElectricalWiring from "./pages/services/ElectricalWiring";
 import ElectricalInstallation from "./pages/services/ElectricalInstallation";
+import Troubleshooting from "./pages/services/Troubleshooting";
 import Contacts from "./pages/Contacts";
 import Links from "./pages/Links";
 import NotFound from "./pages/NotFound";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/services/electrical-wiring" element={<ElectricalWiring />} />
         <Route path="/services/electrical-installation" element={<ElectricalInstallation />} />
+        <Route path="/services/troubleshooting" element={<Troubleshooting />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/links" element={<Links />} />
         <Route path="*" element={<NotFound />} />

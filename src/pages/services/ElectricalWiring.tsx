@@ -59,7 +59,7 @@ const ElectricalWiring = () => {
             </div>
             <div>
               <img 
-                src="/placeholder.svg" 
+                src="https://i.ibb.co/vxLBkZH/wiring-installation.png" 
                 alt="Монтаж электропроводки в Колпино" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -123,17 +123,17 @@ const ElectricalWiring = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/Fwzc5kB/wiring-example1.png" 
               alt="Монтаж электропроводки" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/0Q6S5WX/cable-installation.png" 
               alt="Прокладка кабеля" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="/placeholder.svg" 
+              src="https://i.ibb.co/xj9BfKL/old-wiring-replacement.png" 
               alt="Замена старой проводки" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
