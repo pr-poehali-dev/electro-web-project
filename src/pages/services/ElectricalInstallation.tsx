@@ -59,7 +59,7 @@ const ElectricalInstallation = () => {
             </div>
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1567789884554-0b844b597180?q=80&w=800&auto=format&fit=crop" 
+                src="/placeholder.svg" 
                 alt="Монтаж электрооборудования в Колпино" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -74,7 +74,7 @@ const ElectricalInstallation = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=600&auto=format&fit=crop" 
+                  src="/placeholder.svg" 
                   alt="Розетки и выключатели" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -85,7 +85,7 @@ const ElectricalInstallation = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?q=80&w=600&auto=format&fit=crop" 
+                  src="/placeholder.svg" 
                   alt="Светильники и люстры" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -96,7 +96,7 @@ const ElectricalInstallation = () => {
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <img 
-                  src="https://images.unsplash.com/photo-1613390222936-2a5d3cde4f3d?q=80&w=600&auto=format&fit=crop" 
+                  src="/placeholder.svg" 
                   alt="Электрощиты" 
                   className="rounded-lg w-full h-48 object-cover mb-4" 
                 />
@@ -114,17 +114,17 @@ const ElectricalInstallation = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             <img 
-              src="https://images.unsplash.com/photo-1598894177239-ced8a7e3f0cc?q=80&w=600&auto=format&fit=crop" 
+              src="/placeholder.svg" 
               alt="Установка розеток" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="https://images.unsplash.com/photo-1575136087922-3c8b1560ddca?q=80&w=600&auto=format&fit=crop" 
+              src="/placeholder.svg" 
               alt="Монтаж светильников" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
             <img 
-              src="https://images.unsplash.com/photo-1665986759109-dc58344b9da7?q=80&w=600&auto=format&fit=crop" 
+              src="/placeholder.svg" 
               alt="Подключение электрощита" 
               className="rounded-lg shadow-md w-full h-64 object-cover" 
             />
