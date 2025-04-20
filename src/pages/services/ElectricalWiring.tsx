@@ -59,7 +59,7 @@ const ElectricalWiring = () => {
             </div>
             <div>
               <img 
-                src="/placeholder.svg" 
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop" 
                 alt="Монтаж электропроводки в Колпино" 
                 className="rounded-lg shadow-lg w-full h-auto"
               />
@@ -122,9 +122,21 @@ const ElectricalWiring = () => {
         <section className="container-custom">
           <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            <img src="/placeholder.svg" alt="Пример работы" className="rounded-lg shadow-md w-full h-64 object-cover" />
-            <img src="/placeholder.svg" alt="Пример работы" className="rounded-lg shadow-md w-full h-64 object-cover" />
-            <img src="/placeholder.svg" alt="Пример работы" className="rounded-lg shadow-md w-full h-64 object-cover" />
+            <img 
+              src="https://images.unsplash.com/photo-1611392596702-0a2eea5c7289?q=80&w=600&auto=format&fit=crop" 
+              alt="Монтаж электропроводки" 
+              className="rounded-lg shadow-md w-full h-64 object-cover" 
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1568548353402-49b2ef4e955d?q=80&w=600&auto=format&fit=crop" 
+              alt="Прокладка кабеля" 
+              className="rounded-lg shadow-md w-full h-64 object-cover" 
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1624952962213-c97cca1f7aae?q=80&w=600&auto=format&fit=crop" 
+              alt="Замена старой проводки" 
+              className="rounded-lg shadow-md w-full h-64 object-cover" 
+            />
           </div>
         </section>
         

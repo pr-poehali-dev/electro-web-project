@@ -44,19 +44,19 @@ const Index = () => {
             <ServiceCard 
               title="Электропроводка" 
               description="Монтаж и замена электропроводки в квартирах, домах и офисах. Прокладка кабеля, установка распределительных коробок."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=500&auto=format&fit=crop"
               link="/services/electrical-wiring"
             />
             <ServiceCard 
               title="Монтаж электрооборудования" 
               description="Установка розеток, выключателей, светильников, люстр, электрощитов и другого электрооборудования."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=500&auto=format&fit=crop"
               link="/services/electrical-installation"
             />
             <ServiceCard 
               title="Устранение неисправностей" 
               description="Диагностика и устранение неисправностей в электросети. Ремонт электропроводки, замена вышедших из строя элементов."
-              imageSrc="/placeholder.svg"
+              imageSrc="https://images.unsplash.com/photo-1574170561126-4fcbbfc9b52b?q=80&w=500&auto=format&fit=crop"
               link="/services/troubleshooting"
             />
           </div>
@@ -89,6 +89,33 @@ const Index = () => {
                 <p className="text-gray-600">Быстрый выезд на объект и выполнение работ в согласованные сроки.</p>
               </div>
             </div>
+          </div>
+        </section>
+        
+        {/* Work Examples */}
+        <section className="container-custom py-16">
+          <h2 className="text-3xl font-bold mb-8 text-center">Примеры работ</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <img 
+              src="https://images.unsplash.com/photo-1613390222936-2a5d3cde4f3d?q=80&w=500&auto=format&fit=crop" 
+              alt="Монтаж электрощита" 
+              className="rounded-lg shadow-md w-full h-64 object-cover"
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1555963966-b7ae5404f6ed?q=80&w=500&auto=format&fit=crop" 
+              alt="Прокладка кабеля" 
+              className="rounded-lg shadow-md w-full h-64 object-cover"
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1594818379496-da1e345b0ded?q=80&w=500&auto=format&fit=crop" 
+              alt="Установка розеток" 
+              className="rounded-lg shadow-md w-full h-64 object-cover"
+            />
+            <img 
+              src="https://images.unsplash.com/photo-1617525104975-5a0a4d193fd9?q=80&w=500&auto=format&fit=crop" 
+              alt="Замена проводки" 
+              className="rounded-lg shadow-md w-full h-64 object-cover"
+            />
           </div>
         </section>
         
